@@ -57,3 +57,14 @@ Join our community of developers creating universal apps.
 - remove the scripts folder
 - remove the line 7 in the file package.json
 - Modify 'tsx' to 'jsx'
+
+## Authentication Service Provider 
+- Go to clerk.com
+- Create an account, select what you need and the project
+- Select expo and follow steps 
+- npm i react-native-web @expo/metro-runtime
+- npm i @clerk/clerk-expo
+- follow the step 4
+- step 5: npm i expo-secure-store
+- Setup layout content auth (app/_layout.jsx)
+- npm install expo-linking ( already install in this project )
